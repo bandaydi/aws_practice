@@ -1,0 +1,10 @@
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd aws_practice
+        - npm install -g parcel
+        - npm install
+    build:
+      commands:
+        - npm run build
